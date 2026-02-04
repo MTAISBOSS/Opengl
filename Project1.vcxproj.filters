@@ -21,9 +21,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <None Include="Shaders\shader.frag" />
     <None Include="Shaders\shader.vert" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -38,26 +38,29 @@
     <ClCompile Include="Window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\LENOVO\Desktop\imgui-master\imgui_draw.cpp">
-      <Filter>Source Files\imgui</Filter>
+    <ClCompile Include="packages\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\LENOVO\Desktop\imgui-master\imgui_impl_glfw.cpp">
-      <Filter>Source Files\imgui</Filter>
+    <ClCompile Include="packages\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\LENOVO\Desktop\imgui-master\imgui_impl_opengl3.cpp">
-      <Filter>Source Files\imgui</Filter>
+    <ClCompile Include="packages\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\LENOVO\Desktop\imgui-master\imgui_tables.cpp">
-      <Filter>Source Files\imgui</Filter>
+    <ClCompile Include="packages\imgui\imgui_impl_glfw.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\LENOVO\Desktop\imgui-master\imgui_widgets.cpp">
-      <Filter>Source Files\imgui</Filter>
+    <ClCompile Include="packages\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\LENOVO\Desktop\imgui-master\imgui.cpp">
-      <Filter>Source Files\imgui</Filter>
+    <ClCompile Include="packages\imgui\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\LENOVO\Desktop\imgui-master\imgui_demo.cpp">
-      <Filter>Source Files\imgui</Filter>
+    <ClCompile Include="packages\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -70,26 +73,38 @@
     <ClInclude Include="Window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\LENOVO\Desktop\imgui-master\imgui_internal.h">
-      <Filter>Header Files\imgui</Filter>
+    <ClInclude Include="packages\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\LENOVO\Desktop\imgui-master\imstb_rectpack.h">
-      <Filter>Header Files\imgui</Filter>
+    <ClInclude Include="packages\imgui\imgui.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\LENOVO\Desktop\imgui-master\imstb_textedit.h">
-      <Filter>Header Files\imgui</Filter>
+    <ClInclude Include="packages\imgui\imgui_impl_glfw.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\LENOVO\Desktop\imgui-master\imstb_truetype.h">
-      <Filter>Header Files\imgui</Filter>
+    <ClInclude Include="packages\imgui\imgui_impl_opengl3.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\LENOVO\Desktop\imgui-master\imconfig.h">
-      <Filter>Header Files\imgui</Filter>
+    <ClInclude Include="packages\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\LENOVO\Desktop\imgui-master\imgui_impl_glfw.h">
-      <Filter>Header Files\imgui</Filter>
+    <ClInclude Include="packages\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\LENOVO\Desktop\imgui-master\imgui_impl_opengl3.h">
-      <Filter>Header Files\imgui</Filter>
+    <ClInclude Include="packages\imgui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="packages\imgui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packages\imgui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="packages\glew.v140.1.12.0\build\native\lib\x64\Release\glew32s.lib" />
   </ItemGroup>
 </Project>
